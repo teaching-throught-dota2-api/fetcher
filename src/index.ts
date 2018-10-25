@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 
 //the following is a typescript interface. 
-//i simply looked at the data and made this manualy
+//i simply looked at the Dota API data and made this manualy
 //the ? mark at the end of the name means that it can be undefined
 interface Match {
     match_id: number,
