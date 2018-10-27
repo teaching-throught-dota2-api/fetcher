@@ -23,7 +23,7 @@ interface Match {
 let json_data_cache: Match[] = [];
 
 let get_data = async () => {
-    let data = await fetch('https://api.opendota.com/api/heroes')
+    let data = await fetch('https://api.opendota.com/api/publicMatches')
     let json_from_server = await data.json();
     console.log(json_from_server);
 
